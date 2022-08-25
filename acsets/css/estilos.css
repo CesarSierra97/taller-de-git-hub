@@ -1,3 +1,37 @@
 body{
-    background-color: aqua;
+    background-color: bisque;
+}
+.Malzahar{
+    background-color: azure;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin: 100px auto 100px auto;
+    border: 5px groove #16D8CD ;
+}
+.Malzahar h2{
+color: black;
+background-color: #16D8CD;
+border-radius: 10px;
+}
+.Malzahar p{
+    text-align: center;
+    color: black;
+}
+.Malzahar img{
+    border-radius: 100%;
+}
+.btn-malzahar{
+    background-color: #16D8CD;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 900;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-malzahar:hover{
+    background-color: blueviolet;
 }
