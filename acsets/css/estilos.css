@@ -35,3 +35,35 @@ border-radius: 10px;
 .btn-malzahar:hover{
     background-color: blueviolet;
 }
+
+.btn_boton1{
+    background: linear-gradient( red, green (211, 235, 3));
+    border: none;
+    padding: 0.5rem 1rem;
+    box-shadow: 5px 5px 5px rgb(22, 22, 21);
+    cursor: pointer;
+  }
+  .btn_boton1:hover{
+  background-color: rgb(255, 174, 0);
+  }
+  
+  .imagenconsombra{
+    box-shadow: 5px 5px 5px rgb(22, 22, 21);
+    border-radius: 50px;
+    border: 5px solid white;
+  }
+  .caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    
+    margin: 100px auto 100px auto;
+    padding-bottom: 10px;
+    box-shadow: 5px 4px 3px #000;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+  }
